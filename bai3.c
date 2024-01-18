@@ -1,8 +1,8 @@
-/*Đổi từ độ C sang độ F*/
+#include <stdio.h>
 int main (){
-    float doC,doF=0;
-    scanf ("%f",&doC);
-    doF=doC*1.8+32;
-    printf("doF la %.2f\n", doF);
+    float degreesCelsius,degreesFahrenheit=0;
+    scanf ("%f",&degreesCelsius);
+    degreesFahrenheit=degreesCelsius*1.8+32;
+    printf("Degrees Fahrenheit is %.2f\n", degreesFahrenheit);
     return 0;
 }

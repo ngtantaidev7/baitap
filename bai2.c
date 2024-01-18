@@ -1,4 +1,3 @@
-/*Kiểm Tra Số Nguyên Tố*/
 #include <stdio.h>
 #include <math.h>
 int isPrime(int n) {
@@ -16,9 +15,9 @@ int main (){
     int n;
     scanf("%d", &n);
     if (isPrime(n)) {
-        printf("%d la so nguyen to \n", n);
+        printf("%d is prime \n", n);
     } else {
-        printf("%d khong phai la so nguyen to \n", n);
+        printf("%d not is prime \n", n);
     }
     return 0;
 

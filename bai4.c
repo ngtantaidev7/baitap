@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 void reverseString(char *str) {
     int length = strlen(str);
     int i, j;
@@ -11,13 +10,12 @@ void reverseString(char *str) {
         str[j] = temp;
     }
 }
-
 int main() {
     char str[100];
-    printf("nhap chuoi ky tu: ");
+    printf("Enter a character string: ");
     scanf("%d", &str);
     fgets(str, sizeof(str), stdin);
     reverseString(str);
-    printf("chuoi dao nguoc :%s", str);
+    printf("Reverse chain: %s", str);
     return 0;
 }

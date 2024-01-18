@@ -1,6 +1,5 @@
-/*Tìm Tổng và Trung Bình*/
 #include <stdio.h>
-void nhap(int a[], int n) {
+void importArray(int a[], int n) {
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
@@ -21,8 +20,8 @@ int main() {
     int n;
     scanf("%d", &n);
     int a[n];
-    nhap(a, n);
-    printf("Tong: %d\n", sum(a, n));
-    printf("Trung binh cong: %.2f\n", average(a, n));
+    importArray(a, n);
+    printf("Sum is: %d\n", sum(a, n));
+    printf("Average is: %.2f\n", average(a, n));
     return 0;
 }
