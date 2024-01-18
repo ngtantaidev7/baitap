@@ -12,8 +12,8 @@ int sum(int a[], int n) {
     return sum;
 }
 float average(int a[], int n) {
-    float tong = sum(a, n);
-    float avr = tong / n;
+    float result = sum(a, n);
+    float avr = result / n;
     return avr;
 }
 int main() {
